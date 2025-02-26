@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+
+# Build output
+dist/
+build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Sequelize migrations
+migrations/
+seeders/
